@@ -1,0 +1,22 @@
+body{
+  text-align: center;
+  padding-top: 80px;
+}
+form{
+  display: inline-block;
+  text-align: left;
+}
+button{
+  margin: 0 auto;
+  display: block;
+}
+span{
+  color:red;
+}
+.Paciente{
+  border: 2px solid black;
+  display: inline-block;
+  margin-left: 20px 0 0 20px;
+  padding:15px;
+  margin:30px;
+}

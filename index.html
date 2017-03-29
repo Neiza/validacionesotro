@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Clinica Lab</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <h1>Clinica Lab</h1>
+    <form id="fichaDatos">
+        <label>Nombre del Paciente:</label>
+        <br>
+            <input type="text" id="nombre" class="input-registro" placeholder="Ingresa tu Nombre" >
+          <br>
+          <span class="indicacion-solo-letras"></span>
+          <br>
+          <label>Apellido del Paciente</label>
+          <br>
+            <input type="text" id="apellido" class="input-registro" placeholder="Ingresa tu Apellido"/>
+            <br>
+            <span class="indicacion-solo-letras"></span>
+            <br>
+          <label>Edad:</label>
+          <br>
+            <input type="text" id="edad" class="input-registro" placeholder="Edad"/>
+            <br>
+            <span class="indicacion-solo-letras"></span>
+            <br>
+          <label>Género:</label>
+          <br>
+            <select  id="genero">
+              <option value="femenino">Femenino</option>
+              <option value="masculino">Masculino</option>
+            </select>
+            <br>
+          <label>Ciudad:</label>
+          <br>
+            <input type="text" id="ciudad" class="input-registro" placeholder="Ingresa tu Ciudad"/>
+            <br>
+            <span class="indicacion-solo-letras"></span>
+            <br>
+          <label>País:</label>
+          <br>
+            <input type="text" id="pais" class="input-registro" placeholder="Ingresa tu País"/>
+            <br>
+            <span class="indicacion-solo-letras"></span>
+            <br>
+          <br>
+          <button type="submit" id="login">Login</input></button>
+    </form>
+  <div id="pacientes"></div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
